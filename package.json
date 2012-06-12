@@ -1,0 +1,13 @@
+{
+  "author": "Craig Condon",
+  "name": "strscanner",
+  "description": "lexical string analysis for javascript",
+  "version": "0.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/crcn/strscan.js.git"
+  },
+  "main": "./lib/index.js",
+  "dependencies": {},
+  "devDependencies": {}
+}
