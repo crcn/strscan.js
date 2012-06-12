@@ -17,7 +17,7 @@ while(!scanner.eof()) {
 	if(scanner.isAZ()) {
 		var word = scanner.nextWord();
 	} else 
-	if(scanner.char() == "-") {
+	if(scanner.cchar() == "-") {
 		var arrow = scanner.to(1);
 	}
 }
@@ -38,7 +38,7 @@ returns true if the scanner is at the end
 
 scans to the next character
 
-#### .char()
+#### .cchar()
 
 returns the current char
 
@@ -56,7 +56,7 @@ returns true if the current char is 0-9
 returns true if the current char is A-Z 0-9
 
 
-#### .matches(regexp)
+#### .next(match)
 
 returns true if the current char matches the given regular expression
 
